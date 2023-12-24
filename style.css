@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-color: rgba(15, 17, 15, 0.644);
+    background-image: url(pic/screen-0.jpg);
+    font-family: 'Ubuntu', sans-serif;
+    color: azure;
+    font-size: 200%;
+    background-attachment: fixed;
+}
+
+form {
+    color: black;
+    border: 1px;
+    border-radius: 20px;
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 350px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+input[type="email"] {
+    height: 50px;
+    width: 350px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input[type="password"] {
+    height: 50px;
+    width: 350px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    height: 40px;
+    width: auto;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: rgb(190, 57, 16);
+    color: azure;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.7s;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.116);
+}
+
+input[type="submit"]:hover {
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: azure;
+    color: rgb(190, 57, 16);
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.308);
+}
+
+input[type="button"] {
+    height: 40px;
+    width: auto;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: rgb(16, 106, 190);
+    color: azure;
+    transition: 0.7s;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.123);
+}
+
+input[type="button"]:hover {
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: azure;
+    color: rgb(16, 106, 190);
+    margin: 10px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.308);
+}
+
+a {
+    color: black;
+    transition: 0.7s;
+    font-size: auto;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(190, 57, 16);
+}
+
+.headerZone {
+    top: 0;
+    background-color: rgba(240, 255, 255, 0.534);
+    vertical-align: top;
+    background-attachment: fixed;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 60px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.308);
+}
+
+.centerDiv {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+details {
+    transition: 1s ease-in-out;
+    text-align: left;
+    padding-left: 0.3cm;
+}
+
+details[open] {
+    transition: 1s ease-in-out;
+}
+
+.filters {
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 2px;
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+    background-color: rgba(240, 255, 255, 0.534);
+    padding: 5px;
+    margin-top: 5px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.116);
+    transition: 0.5s;
+}
+
+.filters:hover {
+    box-shadow: 0px 5px 15px 10px rgba(0, 0, 0, 0.308);
+}
+
+table {
+    background-color: rgba(240, 255, 255, 0.534);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.116);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.filter {
+    width: auto;
+    background-color: rgba(240, 255, 255, 0.534);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.308);
+}
+
+img {
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.116);
+    transition: 0.5s;
+}
+
+img:hover {
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.308);
+}
+.form1{
+    background-color: rgba(255, 253, 253, 0.459);
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.form2{
+    background-color: rgba(255, 253, 253, 0.459);
+    color: black;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px;
+    border-radius: 20px;
+    text-align: center;
+}
+.form3{
+    background-color: rgba(255, 253, 253, 0.459);
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+td:focus{
+    border: 0px;
+}
+
+input[type="search"]{
+    font-size: x-large;
+    border-radius: 20px;
+    border: 0px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 408px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.116);
+    transition: 0.5s;
+}
+
+input[type="search"]:active{
+    text-align: left;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.308);
+}
+
+input[type="search"]:focus{
+    text-align: left;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.308);
+}
+
+input[type="search"]:hover{
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.308);
+}
